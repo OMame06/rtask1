@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 
 import sys
-import random
+
 
 read = sys.stdin.read().strip()
 data = read.split()
@@ -22,17 +22,11 @@ for i in range(1,end):
 
          elif data[i - 1] == '/':
            maindata /= float(data[i])
-         else:
-           print("符号を入れてください")
+#         else:
+#           print("符号を入れてください")
 
 if nchange  == maindata:
   print("変化なし")
 else:
-  rnd = random.randint(1,10)
-  if rnd > 4:
-    print(maindata)
-  elif rnd > 2:
     fm = int(maindata)
     print(fm)
-  else:
-    print("気分じゃない")
