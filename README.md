@@ -5,7 +5,7 @@
 四則演算を行うことが出来るプログラムです。通常の計算機能にいくつか工夫点が追加されています。
 
 ## プログラム概要
-以下の手順で実行してください。
+git cloneを行った後、以下の手順で実行してください。
 ```
 $ git clone https://github.com/OMame06/unkindness_calculator
 ```
