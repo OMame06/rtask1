@@ -1,4 +1,4 @@
-# _Breadcrumbsunkindness_calculator_
+# _unkindness_calculator_
 [![test](https://github.com/OMame06/unkindness_calculator/actions/workflows/test.yml/badge.svg)](https://github.com/OMame06/unkindness_calculator/actions/workflows/test.yml)
 
 ## プログラムの目的
@@ -6,10 +6,10 @@
 
 ## プログラム概要
 ```
-$ git clone https://github.com/OMame06/windows_trick.git
+$ git clone https://github.com/OMame06/unkindness_calculator
 ```
 ```
-$ cd windows_trick
+$ cd 
 ```
 ### 標準入力
 標準入力はパイプを使用しています。数値と計算記号を交互に入力してください。
@@ -19,11 +19,11 @@ $ cd windows_trick
 乗算[*]
 除算[/]
 ```
-$ echo "数値 計算記号 数値 計算記号"| ./pesky_windows
+$ echo "数値 計算記号 数値 計算記号" | ./calculator
 ```
 例：5+8を行う場合
 ```
-$ echo "5 + 8"| ./pesky_windows
+$ echo "5 + 8" | ./calculator
 ```
 ### 標準出力
 標準出力では計算結果が表示されます。「工夫点」に該当する場合は異なる出力を行います。詳細については「工夫点について」を閲覧して下さい。
