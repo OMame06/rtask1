@@ -13,10 +13,15 @@ $ git clone https://github.com/OMame06/unkindness_calculator
 ### 標準入力
 標準入力はパイプを使用しています。数値と計算記号を交互に入力してください。
 計算記号は下記のいずれかを使用してください。
+
 加算[+]
+
 減算[-]
+
 乗算[*]
+
 除算[/]
+
 ```
 $ echo "数値 計算記号 数値 計算記号" | ./calculator
 ```
