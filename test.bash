@@ -1,4 +1,6 @@
-#!/bin/bash
+#!/bin/bash -xv
+# SPDX-FileCopyrightText: 2024 Riku Kinjo
+# SPDX-License-Identifier: BSD-3-Clause
 
 ng () {
          echo ${1}行目に問題有
