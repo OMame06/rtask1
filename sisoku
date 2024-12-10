@@ -22,11 +22,16 @@ for i in range(1,end):
 
          elif data[i - 1] == '/':
            maindata /= float(data[i])
-#         else:
-#           print("符号を入れてください")
 
-if nchange  == maindata:
+if   maindata == nchange:
   print("変化なし")
 else:
-    fm = int(maindata)
-    print(fm)
+  if maindata > 256:
+    print("error")
+  elif maindata < 10:
+       maindata = 0
+       print(maindata)
+  else:
+       im = int(maindata)
+       im = int(str(im).replace('4', '7').replace('6', '7'))
+       print(im)
